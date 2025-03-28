@@ -1,0 +1,6 @@
+<div class="soundAlertLayout" ng-style="{opacity: config.Opacity, background: config.BackgroundColor, color: MultistateColor || config.TextColor}">
+    <div ng-show="config.ShowLabel">{{label}}</div>
+	<div>{{value}} <span ng-show="config.ShowUnits"> {{Units}}</span> </div>     
+	<div ng-show="config.ShowTime">{{time}}</div>
+	<div><input type="button" value="Activar/Desactivar"/></div>	
+</div>

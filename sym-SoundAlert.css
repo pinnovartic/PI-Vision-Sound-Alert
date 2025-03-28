@@ -1,0 +1,27 @@
+.ConfigLayout {
+    padding: 17px;
+    font-size: 14px
+}
+.ConfigCheckBox {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+    margin-left: 15px;
+    font-size: 14px;
+}
+
+.ConfigText {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+    margin-left: 15px;
+    font-size: 14px;
+}
+
+.ConfigTextBox {
+    width: 50px;
+}
+
+.ConfigDropDown {
+	width: 70px;
+}

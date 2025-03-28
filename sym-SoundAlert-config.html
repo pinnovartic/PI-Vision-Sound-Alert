@@ -1,0 +1,36 @@
+<div class="ConfigLayout">
+	
+	<label class="ConfigCheckBox">
+        <input type="checkbox" name="ShowLabel" ng-model="config.ShowLabel">Show Label<br />
+    </label>
+    <label class="ConfigCheckBox">
+        <input type="checkbox" name="ShowTime" ng-model="config.ShowTime">Show Timestamp<br />
+    </label>
+    <label class="ConfigCheckBox">
+        <input type="checkbox" name="ShowUnits" ng-model="config.ShowUnits">Show Units<br />
+    </label>
+    <label class="ConfigText">
+        <input class="ConfigTextBox" type="text" name="MinValue" ng-model="config.MinValue">Minimum Value<br />
+    </label>
+    <label class="ConfigText">
+        <input class="ConfigTextBox" type="text" name="MaxValue" ng-model="config.MaxValue">Maximum Value<br />
+	</label>
+	<label class="ConfigText">
+        <input class="ConfigTextBox" type="text" name="TextColor" ng-model="config.TextColor">Text Color<br />
+    </label>
+    <label class="ConfigText">
+        <input class="ConfigTextBox" type="text" name="BackgroundColor" ng-model="config.BackgroundColor">Background Color<br />
+	</label>
+	<div class="ConfigText" style="margin-left:20px;margin-right:20px;font-size:14px;margin-top:8px;">
+    <div class="config-option-ie11-overflow-fix">
+        <div class="config-label">Alert Sound</div>
+        <select ng-model="config.Sound" ng-model-options="{ getterSetter: true }" class="config-option-single-row-input" name="Sound" style="margin-top: 8px;background-color:transparent;padding:2px;">
+            <option value="Alerta001">Alerta001</option>
+            <option value="Alerta002">Alerta002</option>
+            <option value="Alerta003">Alerta003</option>
+			<option value="Alerta004">Alerta004</option>
+			<option value="Alerta005">Alerta005</option>
+        </select>
+    </div>
+</div>
+</div>
